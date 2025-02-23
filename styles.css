@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(168, 193, 205);
+}
+#calc{
+    margin-left: 38%;
+    margin-top: 100px;
+    width: 400px;
+    height: 250px;
+    background-color: rgb(229, 230, 233);
+    display: inline-block;
+    border-radius: 13px;
+    border: solid black;
+}
+#calc > input{
+    padding: 10px;
+    width: 230px;
+    border-radius: 10px;
+    border: 3px solid rgb(23, 98, 84);
+    margin-right: 7px;
+    margin-left: 30px;
+}
+#calc > button{
+    padding: 10px;
+    width: 70px;
+    border-radius: 5px;
+    border: 3px medium rgb(32, 17, 32);
+    font-size: 15px;
+    background-color: rgb(33, 26, 26);
+    color: aliceblue;
+    margin-top: 25px;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+}
+h2{
+    font-size: 27px;
+    text-align: center;
+}
+#semesters-container{
+    visibility: hidden;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+.sem_boxes{
+    background-color: rgb(229, 230, 233);
+    width: 450px;
+    border-radius: 10px;
+    border: solid black;
+    margin-bottom: 20px;
+}
+.credits{
+    display: inline-block;
+}
+.GPA{
+    display: inline-block;
+    margin-left: 20px;
+}
+.sem_boxes p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sem_boxes>p{
+    text-align: center;
+    margin-bottom: 0px;
+}
+.credits{
+    margin: 20px;
+    margin-top: 0px;
+}
+.sem_boxes input{
+    padding: 8px;
+    border: solid rgb(84, 116, 101);
+    border-radius: 7px;
+}
+.calculateButton{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 180px;
+    margin-bottom: 100px;
+    font-weight: bold;
+    background-color: rgb(206, 201, 211);
+}
